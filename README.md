@@ -44,7 +44,7 @@ Utils.float2String(value_pressure,pressure_string,2);
 // Building the data structure sprintf(data_structure,"%d%c%s%c%s%c%s%c%d",mote_num,' ',temperature_string,'
 ',humidity_string,' ',pressure_string,' ',battery_level);
 // Sending SMS
-if (GPRS.sendSMS(data_structure,"0704287385")) USB.println("SMS sent"); else USB.println("Error sending SMS");
+if (GPRS.sendSMS(data_structure,"0720649503")) USB.println("SMS sent"); else USB.println("Error sending SMS");
 delay(1200000);
 }
 
